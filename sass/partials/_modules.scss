@@ -14,6 +14,22 @@
     @include calc-param(min-height, $section__min-height, $header__height);
 }
 
+.bg{
+    &-contact{        
+        @include set-background($bg__contact-img,0,"top right","cover","scroll");
+    }
+    &-dark-gray{
+        background-color: $color__dark-gray!important;
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"top right","cover","scroll");
+    }
+    &-offer{        
+        @include set-background($bg__offer-img,0,"top right","cover","fixed");
+
+    }
+}
+
 .comingsoon{
     &-s1{
         @extend %bg-tmp;

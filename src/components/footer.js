@@ -8,7 +8,7 @@ class Footer extends Component{
     render(){
         return(      
             <footer>
-                <Container fluid className="d-flex align-items-center bg-dark border-top border-secondary p-3">
+                <Container fluid className="d-flex align-items-center bg-dark-gray border-top border-secondary p-3">
                     <Row className="mx-auto text-center d-flex w-100">
                         <Col xs={10} className="mx-auto text-shadow">
                             <small className="my-0 text-white">

@@ -13,7 +13,7 @@ class Error extends Component{
                         <h2 class="text-white font-weight-bold text-shadow">
                             Page not found!
                         </h2>
-                        <Link to={this.props.backLink.href} className="btn btn-lg btn-light d-inline">
+                        <Link to={this.props.backLink.href} className="btn btn-outline-light d-inline rounded-pill mt-4">
                             {this.props.backLink.name}
                         </Link>
                     </Col>

@@ -1,3 +1,27 @@
+/* line 2, ../../sass/partials/_minh.scss */
+.minh-25vh {
+  min-height: 25vh;
+}
+/* line 5, ../../sass/partials/_minh.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+/* line 8, ../../sass/partials/_minh.scss */
+.minh-75vh {
+  min-height: 75vh;
+}
+/* line 11, ../../sass/partials/_minh.scss */
+.minh-100vh {
+  min-height: 100vh;
+}
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 57px );
+  min-height: -o-calc( 100vh - 57px );
+  min-height: -moz-calc( 100vh - 57px );
+  min-height: -webkit-calc( 100vh - 57px );
+}
+
 /* line 1, ../../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -70,43 +94,72 @@ section {
   min-height: -webkit-calc( 100vh - 0px );
 }
 
-/* line 23, ../../sass/partials/_modules.scss */
+/* line 18, ../../sass/partials/_modules.scss */
+.bg-contact {
+  background-attachment: scroll;
+  background-image: url(../img/contact.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 21, ../../sass/partials/_modules.scss */
+.bg-dark-gray {
+  background-color: #192026 !important;
+}
+/* line 24, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 27, ../../sass/partials/_modules.scss */
+.bg-offer {
+  background-attachment: fixed;
+  background-image: url(../img/offer.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 39, ../../sass/partials/_modules.scss */
 .decoration-none {
   text-decoration: none !important;
 }
 
-/* line 33, ../../sass/partials/_modules.scss */
+/* line 49, ../../sass/partials/_modules.scss */
 .font-logo {
   font-family: "Arial";
   font-size: 24px;
 }
-/* line 36, ../../sass/partials/_modules.scss */
+/* line 52, ../../sass/partials/_modules.scss */
 .font-menu {
   font-family: "Arial";
   font-size: 16px;
 }
 
-/* line 41, ../../sass/partials/_modules.scss */
+/* line 57, ../../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 44, ../../sass/partials/_modules.scss */
+/* line 60, ../../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 49, ../../sass/partials/_modules.scss */
+/* line 65, ../../sass/partials/_modules.scss */
 .p-header {
   padding-top: 60px;
 }
 
-/* line 54, ../../sass/partials/_modules.scss */
+/* line 70, ../../sass/partials/_modules.scss */
 .privacy-container {
   background-color: #fff !important;
   opacity: 0.8;
 }
 
-/* line 63, ../../sass/partials/_modules.scss */
+/* line 79, ../../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
 }

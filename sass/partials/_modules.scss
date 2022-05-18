@@ -80,3 +80,37 @@
         text-shadow: $text__shadow;
     }
 }
+.offer,.investment{
+    &-s3{
+        background-blend-mode: multiply !important;
+        background-color: #999 !important;
+    }
+}
+nav{
+    z-index: 10;
+}
+@media all and (max-width: 767px){
+    .investment,.offer{
+        &-s1,&-s2,&-s3{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+            background-position: right!important;
+        }
+    }
+    .navbar{
+        &-toggler{
+            background-color: #555;
+            border-color: #333;
+        }
+        &-nav{
+            background-color: #555;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px
+        }
+    }
+}

@@ -46,7 +46,7 @@ section {
 
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/error.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ section {
 
 /* line 31, ../../sass/partials/_mixins.scss */
 .comingsoon-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/coming.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -63,8 +63,62 @@ section {
 }
 
 /* line 31, ../../sass/partials/_mixins.scss */
+.investment-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
+.investment-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
+.investment-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/offer.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
+.offer-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
+.offer-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/offer.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
+.offer-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../../sass/partials/_mixins.scss */
 .privacy-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -117,7 +171,7 @@ section {
 /* line 27, ../../sass/partials/_modules.scss */
 .bg-offer {
   background-attachment: fixed;
-  background-image: url(../img/offer.jpg);
+  background-image: url(../img/2.jpg, ../img/offer.jpg, ../img/1.jpg);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,4 +216,42 @@ section {
 /* line 79, ../../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
+}
+
+/* line 84, ../../sass/partials/_modules.scss */
+.offer-s3, .investment-s3 {
+  background-blend-mode: multiply !important;
+  background-color: #999 !important;
+}
+
+/* line 89, ../../sass/partials/_modules.scss */
+nav {
+  z-index: 10;
+}
+
+@media all and (max-width: 767px) {
+  /* line 94, ../../sass/partials/_modules.scss */
+  .investment-s1, .investment-s2, .investment-s3, .offer-s1, .offer-s2, .offer-s3 {
+    background-blend-mode: multiply !important;
+    background-color: #999 !important;
+    background-position: right !important;
+  }
+  /* line 95, ../../sass/partials/_modules.scss */
+  .investment-s1 *, .investment-s2 *, .investment-s3 *, .offer-s1 *, .offer-s2 *, .offer-s3 * {
+    color: #fff !important;
+    text-shadow: 1px 1px 4px #000;
+  }
+
+  /* line 105, ../../sass/partials/_modules.scss */
+  .navbar-toggler {
+    background-color: #555;
+    border-color: #333;
+  }
+  /* line 109, ../../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #555;
+    border: 1px solid #333;
+    opacity: 0.9;
+    padding: 10px;
+  }
 }

@@ -8,8 +8,8 @@ class ContactTop extends Component{
         return(
             <Container fluid className="minh-footer-adj d-flex align-items-center">
                 <Row className="mx-0 w-100">
-                    <Col sm={6} className="d-none d-sm-block"></Col>
-                    <Col xs={10} sm={6} className="text-center text-sm-right text-uppercase text-white mx-auto pt-5">
+                    <Col sm={6} md={7} className="d-none d-sm-block"></Col>
+                    <Col xs={10} sm={6} md={5} className="text-center text-sm-left text-uppercase text-white mx-auto pt-5">
                         <h4 className="lead font-weight-bold">
                             Do you have
                         </h4>  
@@ -19,7 +19,11 @@ class ContactTop extends Component{
                         <h5 className="initialism text-warning font-weight-bold">
                            Contact us now! 
                         </h5>
-                        <address className="pt-3 initialism text-muted">
+                        <p class="text-white lead">
+                            We welcome you to contact us with any inquiries regarding our services, 
+                            capabilities or investment opportunities. 
+                        </p>
+                        <address className="pt-3 initialism text-warning">
                             00-001 City,<br/> 
                             Street 12A,<br/>
                             678 142 838<br/>

@@ -7,41 +7,37 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class OfferS3 extends Component{
     render(){
         return(    
-            <Container fluid className="offer-s3 d-flex minh-50vh align-items-center py-5 bg-secondary">
+            <Container fluid className="offer-s3 d-flex minh-33vh align-items-center py-5 bg-secondary">
                 <Row className="mx-0 w-100 px-3 text-shadow">
                     <Col xs={12} className="py-3">
-                        <h2 className="display-6 text-center text-md-left text-white text-uppercase">
-                            Lorem ipsum dolor
+                        <h2 className="display-6 text-center text-md-left text-warning text-uppercase">
+                            FAQ
                         </h2>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-left">
-                        <p className="initialism text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat.
+                        <p className="initialism text-warning">
+                            If the investment opportunity qualifies, resources are 
+                            pooled from investors and lending institutions while bright talent is engaged 
+                            to design and execute plans.
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
                         <div class=" border-left mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="text-center text-md-left">
-                        <p className="initialism text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat.
+                        <p className="initialism text-warning">
+                            Committed to the success of all of its stake holders, the firm 
+                            upholds a set of high standards and values. Integrity, creativity, reliability and 
+                            attention to detail
                         </p>
                     </Col>
                     <Col md={1} className="d-none d-md-block mx-auto">
                         <div class=" border-left mx-auto h-100 w-25"></div>
                     </Col>
                     <Col xs={12} md={3} className="mx-auto text-center text-md-left">
-                        <p className="initialism text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat.
+                        <p className="initialism text-warning">
+                            The company uses its competitive advantage to produce 
+                            a desirable product through unique design concepts and architectural innovation.
                         </p>
                     </Col>
                 </Row>

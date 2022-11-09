@@ -1,20 +1,28 @@
+@font-face {
+  font-family: "Audiowide";
+  src: url("../fonts/Audiowide-Regular.ttf");
+}
 /* line 2, ../../sass/partials/_minh.scss */
 .minh-25vh {
   min-height: 25vh;
 }
 /* line 5, ../../sass/partials/_minh.scss */
+.minh-33vh {
+  min-height: 33vh;
+}
+/* line 8, ../../sass/partials/_minh.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 8, ../../sass/partials/_minh.scss */
+/* line 11, ../../sass/partials/_minh.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 11, ../../sass/partials/_minh.scss */
+/* line 14, ../../sass/partials/_minh.scss */
 .minh-100vh {
   min-height: 100vh;
 }
-/* line 14, ../../sass/partials/_minh.scss */
+/* line 17, ../../sass/partials/_minh.scss */
 .minh-footer-adj {
   min-height: calc( 100vh - 57px );
   min-height: -o-calc( 100vh - 57px );
@@ -125,12 +133,23 @@ section {
   background-size: cover;
 }
 
-/* line 3, ../../sass/partials/_modules.scss */
+@media all and (orientation: portrait) {
+  /* line 3, ../../sass/partials/_modules.scss */
+  .bg-contact {
+    background-position-x: 70% !important;
+  }
+
+  /* line 6, ../../sass/partials/_modules.scss */
+  .bg-home {
+    background-position-x: 60% !important;
+  }
+}
+/* line 11, ../../sass/partials/_modules.scss */
 * {
   font-family: "Arial";
 }
 
-/* line 7, ../../sass/partials/_modules.scss */
+/* line 15, ../../sass/partials/_modules.scss */
 .comingsoon-s1, .error-s1, .privacy-s1 {
   background-blend-mode: soft-light;
   background-color: #333;
@@ -140,7 +159,7 @@ section {
   min-height: -webkit-calc( 100vh - 0px );
 }
 
-/* line 12, ../../sass/partials/_modules.scss */
+/* line 20, ../../sass/partials/_modules.scss */
 .comingsoon-s1, .error-s1, .privacy-s1 {
   min-height: calc( 100vh - 0px );
   min-height: -o-calc( 100vh - 0px );
@@ -148,7 +167,7 @@ section {
   min-height: -webkit-calc( 100vh - 0px );
 }
 
-/* line 18, ../../sass/partials/_modules.scss */
+/* line 26, ../../sass/partials/_modules.scss */
 .bg-contact {
   background-attachment: scroll;
   background-image: url(../img/contact.jpg);
@@ -156,11 +175,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 21, ../../sass/partials/_modules.scss */
+/* line 29, ../../sass/partials/_modules.scss */
 .bg-dark-gray {
   background-color: #192026 !important;
 }
-/* line 24, ../../sass/partials/_modules.scss */
+/* line 32, ../../sass/partials/_modules.scss */
 .bg-home {
   background-attachment: scroll;
   background-image: url(../img/home.jpg);
@@ -168,7 +187,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 27, ../../sass/partials/_modules.scss */
+/* line 35, ../../sass/partials/_modules.scss */
 .bg-offer {
   background-attachment: fixed;
   background-image: url(../img/2.jpg, ../img/offer.jpg, ../img/1.jpg);
@@ -177,77 +196,98 @@ section {
   background-size: cover;
 }
 
-/* line 39, ../../sass/partials/_modules.scss */
+/* line 47, ../../sass/partials/_modules.scss */
 .decoration-none {
   text-decoration: none !important;
 }
 
-/* line 49, ../../sass/partials/_modules.scss */
+/* line 57, ../../sass/partials/_modules.scss */
 .font-logo {
   font-family: "Arial";
   font-size: 24px;
 }
-/* line 52, ../../sass/partials/_modules.scss */
+/* line 60, ../../sass/partials/_modules.scss */
 .font-menu {
   font-family: "Arial";
   font-size: 16px;
 }
 
-/* line 57, ../../sass/partials/_modules.scss */
+/* line 65, ../../sass/partials/_modules.scss */
+.investment-s1 {
+  background-position-x: 70% !important;
+}
+/* line 68, ../../sass/partials/_modules.scss */
+.investment-s2 {
+  background-position-x: left !important;
+}
+
+/* line 73, ../../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 60, ../../sass/partials/_modules.scss */
+/* line 76, ../../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 65, ../../sass/partials/_modules.scss */
+/* line 81, ../../sass/partials/_modules.scss */
 .p-header {
   padding-top: 60px;
 }
 
-/* line 70, ../../sass/partials/_modules.scss */
+/* line 86, ../../sass/partials/_modules.scss */
 .privacy-container {
   background-color: #fff !important;
   opacity: 0.8;
 }
 
-/* line 79, ../../sass/partials/_modules.scss */
+/* line 95, ../../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
 }
 
-/* line 84, ../../sass/partials/_modules.scss */
+/* line 100, ../../sass/partials/_modules.scss */
 .offer-s3, .investment-s3 {
   background-blend-mode: multiply !important;
   background-color: #999 !important;
 }
 
-/* line 89, ../../sass/partials/_modules.scss */
+/* line 105, ../../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Audiowide";
+  letter-spacing: 1px;
+}
+
+/* line 109, ../../sass/partials/_modules.scss */
 nav {
   z-index: 10;
 }
 
 @media all and (max-width: 767px) {
-  /* line 94, ../../sass/partials/_modules.scss */
+  /* line 113, ../../sass/partials/_modules.scss */
+  .bg-home, .bg-contact {
+    background-color: #666 !important;
+    background-blend-mode: multiply !important;
+  }
+
+  /* line 118, ../../sass/partials/_modules.scss */
   .investment-s1, .investment-s2, .investment-s3, .offer-s1, .offer-s2, .offer-s3 {
     background-blend-mode: multiply !important;
     background-color: #999 !important;
     background-position: right !important;
   }
-  /* line 95, ../../sass/partials/_modules.scss */
+  /* line 119, ../../sass/partials/_modules.scss */
   .investment-s1 *, .investment-s2 *, .investment-s3 *, .offer-s1 *, .offer-s2 *, .offer-s3 * {
     color: #fff !important;
     text-shadow: 1px 1px 4px #000;
   }
 
-  /* line 105, ../../sass/partials/_modules.scss */
+  /* line 129, ../../sass/partials/_modules.scss */
   .navbar-toggler {
     background-color: #555;
     border-color: #333;
   }
-  /* line 109, ../../sass/partials/_modules.scss */
+  /* line 133, ../../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #555;
     border: 1px solid #333;

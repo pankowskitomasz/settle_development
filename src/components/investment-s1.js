@@ -6,25 +6,23 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class InvestmentS1 extends Component{
     render(){
         return(    
-            <Container fluid className="investment-s1 d-flex bg-secondary minh-50vh align-items-center py-5 border-top ">
-                <Row className="mx-0 w-100">
+            <Container fluid className="investment-s1 d-flex bg-secondary minh-33vh align-items-center py-5">
+                <Row className="mx-0 w-100 mt-5">
                     <Col xs={12} md={8} className="minh-25vh d-none d-md-block"></Col>
-                    <Col xs={12} md={4} className="minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={4} className="minh-25vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-left pt-5 text-shadow">
-                            <h5 className="text-white">
-                                Lorem ipsum
+                            <h5 className="text-white-50">
+                                A Long Term
                             </h5>
-                            <h2 className="dispaly-6 fw-bold text-white-50 text-shadow">
-                                Dolor sit amet         
+                            <h2 className="dispaly-6 fw-bold text-warning text-shadow">
+                                Approach     
                             </h2>
                             <p className="text-white">
-                                Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit 
-                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                                occaecat cupidatat non proident, sunt in culpa qui officia 
-                                deserunt mollit anim id est laborum.      
+                                We are constantly evaluating opportunities in the market, using independent and 
+                                conservative judgment. If the investment opportunity qualifies, resources are 
+                                pooled from investors and lending institutions while bright talent is engaged 
+                                to design and execute plans. The company uses its competitive advantage to produce 
+                                a desirable product through unique design concepts and architectural innovation.      
                             </p>
                         </div>
                     </Col>

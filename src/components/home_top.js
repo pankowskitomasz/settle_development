@@ -10,16 +10,16 @@ class HomeTop extends Component{
         let linking;
         if(this.props.backLink!==undefined){
             linking = <Link to={this.props.backLink.path}>
-                <Button variant="outline-warning" className="rounded-pill">
+                <Button variant="warning" className="rounded-pill">
                     {this.props.backLink.name}
                 </Button>
             </Link>;
         }
         return(
-            <Container fluid className="minh-footer-adj d-flex align-items-center pt-5">
-                <Row className="mx-0 w-100">
-                    <Col sm={6} className="d-none d-sm-block"></Col>
-                    <Col xs={10} sm={6} className="text-center text-sm-right text-uppercase text-white mx-auto">
+            <Container fluid className="minh-footer-adj d-flex align-items-center py-5">
+                <Row className="mx-0 w-100 mt-5">
+                    <Col sm={6} md={7} className="d-none d-sm-block"></Col>
+                    <Col xs={10} sm={6} md={5} className="text-center text-sm-left text-uppercase text-white mx-auto">
                         <h4 className="lead font-weight-bold">
                             Do you need
                         </h4>  
@@ -29,6 +29,12 @@ class HomeTop extends Component{
                         <h5 className="initialism text-warning font-weight-bold">
                            We make your dreams come true! 
                         </h5>
+                        <p class="text-white small">
+                            We are family company specialised in mixed-use real estate investment, development, 
+                            and management company focused on high quality, infill and suburban real estate in 
+                            country. Established in 1990, we built upon expertise and experience in development 
+                            and construction as well as an intimate knowledge of the markets in which it operates.
+                        </p>
                         {linking}
                     </Col>
                 </Row>

@@ -7,18 +7,19 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class OfferS2 extends Component{
     render(){
         return(    
-            <Container fluid className="offer-s2 d-flex minh-50vh bg-white align-items-center py-5 border-top  border-bottom border-warning">
+            <Container fluid className="offer-s2 d-flex minh-33vh bg-white align-items-center py-5 border-top  border-bottom border-warning">
                 <Row className="mx-0 w-100">
-                    <Col xs={12} md={7} className="mx-auto minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={7} className="mx-auto minh-25vh d-flex align-items-center">
                         <div className="w-100 text-center">
                             <h2 className="dispaly-6 fw-bold text-warning">
-                                Lorem ipsum
+                                Our offer
                             </h2>
                             <p className="text-white">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                                anim id est laborum.
+                                Our company has taken great care to establish itself as a leader in the multifamily 
+                                real estate market. Committed to the success of all of its stake holders, the firm 
+                                upholds a set of high standards and values. Integrity, creativity, reliability and 
+                                attention to detail have been, and will continue to be, the keys to the company’s 
+                                successes.
                             </p>
                             <Table hover striped>
                                 <thead>

@@ -1,4 +1,12 @@
 @include aoa-bg-series($bg__classes,$bg__aoa);
+@media all and (orientation:portrait){
+    .bg-contact{
+        background-position-x: 70%!important; 
+    }
+    .bg-home{
+        background-position-x: 60%!important; 
+    }
+}
 
 *{
     font-family: $font-main__family;
@@ -53,6 +61,14 @@
         @include set-font-params($font-main__family,$font-main__size);
     }
 }
+.investment{
+    &-s1{
+        background-position-x: 70%!important;
+    }
+    &-s2{
+        background-position-x: left!important;
+    }
+}
 .minh{
     &-50vh{
         min-height: 50vh;
@@ -86,10 +102,18 @@
         background-color: #999 !important;
     }
 }
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Audiowide";
+    letter-spacing: 1px;
+}
 nav{
     z-index: 10;
 }
 @media all and (max-width: 767px){
+    .bg-home,.bg-contact{
+        background-color: #666!important;
+        background-blend-mode: multiply!important;
+    }
     .investment,.offer{
         &-s1,&-s2,&-s3{
             * {

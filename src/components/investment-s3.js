@@ -6,45 +6,35 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class InvestmentS3 extends Component{
     render(){
         return( 
-            <Container fluid className="investment-s3 d-flex minh-25vh align-items-center py-5 border-top">
+            <Container fluid className="investment-s3 d-flex minh-33vh align-items-center py-3 border-top border-warning">
                 <Row className="mx-0 w-100 text-shadow">
                     <Col xs={12} md={4} className="text-left p-4">
-                        <h3 className="text-secondary font-weight-bold">
-                            Lorem ipsum dolor
+                        <h3 className="text-warning font-weight-bold">
+                            Investment
                         </h3>
-                        <p className="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p className="text-warning">
+                            If the investment opportunity qualifies, resources are 
+                            pooled from investors and lending institutions while bright talent is engaged 
+                            to design and execute plans.
                         </p>
                     </Col>
                     <Col xs={12} md={4} className="text-left p-4">
-                        <h3 className="text-secondary font-weight-bold">
-                            Lorem ipsum
+                        <h3 className="text-warning font-weight-bold">
+                            Commitment
                         </h3>
-                        <p className="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p className="text-warning">
+                            Committed to the success of all of its stake holders, the firm 
+                            upholds a set of high standards and values. Integrity, creativity, reliability and 
+                            attention to detail
                         </p>
                     </Col>
                     <Col xs={12} md={4} className="text-left p-4">
-                        <h3 className="text-secondary font-weight-bold">
-                            Lorem ipsum
+                        <h3 className="text-warning font-weight-bold">
+                            Innovation
                         </h3>
-                        <p className="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <p className="text-warning">
+                            The company uses its competitive advantage to produce 
+                            a desirable product through unique design concepts and architectural innovation.      
                         </p>
                     </Col>
                 </Row>

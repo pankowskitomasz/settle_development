@@ -8,40 +8,39 @@ class Footer extends Component{
     render(){
         return(
             <footer>
-                <Container fluid className="d-flex text-dark align-items-center bg-dark text-white pt-3 opacity-9 border-top">
+                <Container fluid className="d-flex text-dark align-items-center bg-warning text-dark pt-3 opacity-9 border-top border-dark">
                     <Row className="mx-0 w-100 small opacity-9">
                         <Col xs={12} md={6} lg={5} className="text-center text-md-left">
                             <img src="img/navbar_logo.png" fluid alt="logo"/>
-                            <p className="initialism font-weight-normal text-white">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <p className="initialism font-weight-normal text-dark my-3">
+                                Established in 1990, we built upon expertise and experience 
+                                in development and construction as well as an intimate knowledge 
+                                of the markets in which it operates.
                             </p>
                         </Col>
                         <Col xs={12} md={6} lg={7} className="text-center text-md-right">                    
                             <ul className="list-inline">
                                 <li className="list-inline-item">
                                     <Link to="#">
-                                        <span className="fa fa-facebook text-white"></span>
+                                        <span className="fa fa-facebook text-dark"></span>
                                     </Link>
                                 </li>
                                 <li className="list-inline-item">
                                     <Link to="#">
-                                        <span className="fa fa-instagram text-white"></span>
+                                        <span className="fa fa-instagram text-dark"></span>
                                     </Link>
                                 </li>
                                 <li className="list-inline-item">
                                     <Link to="#">
-                                        <span className="fa fa-twitter text-white"></span>
+                                        <span className="fa fa-twitter text-dark"></span>
                                     </Link>
                                 </li>
                             </ul>       
                         </Col>
-                        <Col xs={12} className="text-center border-top">
-                            <p className="mb-1 text-white">
+                        <Col xs={12} className="text-center border-top border-dark">
+                            <p className="mb-1 text-dark">
                                 Copyright &copy; 2021-2022 Tomasz Pankowski. 
-                                <Link href="privacy.html" className="font-weight-bold text-white text-decoration-none">
+                                <Link to="/privacy" className="font-weight-bold text-dark text-decoration-none">
                                      Privacy policy
                                 </Link>
                             </p>

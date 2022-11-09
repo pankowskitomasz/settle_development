@@ -6,25 +6,19 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class GalleryS2 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex bg-secondary minh-50vh align-items-center py-5">
+            <Container fluid className="investment-s1 d-flex bg-secondary minh-25vh align-items-center border-top border-warning py-5">
                 <Row className="mx-0 w-100">
-                    <Col xs={12} md={6} className="minh-25vh d-none d-md-block"></Col>
-                    <Col xs={12} md={6} className="minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={7} className="minh-25vh d-none d-md-block"></Col>
+                    <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-left pt-5 text-shadow">
-                            <h5 className="text-white">
-                                Lorem ipsum
-                            </h5>
-                            <h2 className="dispaly-6 fw-bold text-white text-shadow">
-                                Dolor sit amet         
+                            <h2 className="dispaly-6 fw-bold text-warning text-shadow">
+                                Opportunities        
                             </h2>
                             <p className="text-white">
-                                Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit 
-                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                                occaecat cupidatat non proident, sunt in culpa qui officia 
-                                deserunt mollit anim id est laborum.      
+                                We are constantly evaluating opportunities in the market, using independent and 
+                                conservative judgment. If the investment opportunity qualifies, resources are 
+                                pooled from investors and lending institutions while bright talent is engaged 
+                                to design and execute plans.       
                             </p>
                         </div>
                     </Col>
